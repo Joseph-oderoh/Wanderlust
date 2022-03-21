@@ -1,4 +1,4 @@
-/*input[type=text], select, textarea{
+input[type=text], select, textarea{
     width: 100%;
     padding: 12px;
     border: 1pc solid #ccc;
@@ -9,7 +9,7 @@
     resize: vertical;
 }
 
-input[type=submit]{
+/*input[type=submit]{
     background-color: #045faa;
     color: white;
     padding: 12px 20px;
@@ -26,4 +26,4 @@ input[type=submit]:hover{
     border-radius: 5px;
     background-color: #d6d4d4;
     padding: 20px;
-}
+}*/
