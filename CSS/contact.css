@@ -20,10 +20,10 @@ input[type=text], select, textarea{
 
 input[type=submit]:hover{
     background-color: #010f1b;
-}
+}*/
 
 .container{
     border-radius: 5px;
     background-color: #d6d4d4;
     padding: 20px;
-}*/
+}
