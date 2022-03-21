@@ -9,7 +9,7 @@ input[type=text], select, textarea{
     resize: vertical;
 }
 
-/*input[type=submit]{
+input[type=submit]{
     background-color: #045faa;
     color: white;
     padding: 12px 20px;
@@ -20,7 +20,7 @@ input[type=text], select, textarea{
 
 input[type=submit]:hover{
     background-color: #010f1b;
-}*/
+}
 
 .container{
     border-radius: 5px;
