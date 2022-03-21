@@ -5,8 +5,8 @@
 }
 
 body{
-    background-image: url("../images/ejoy.jpg");
-    background-size: cover;
+     background-image: url("../images/ejoy.jpg");
+     background-size: cover; 
 }
 nav{
     height: 10vh;
@@ -25,32 +25,87 @@ nav a:hover{
 }
 
 #west{
-    border-radius: 40%;
     margin-top: 20px;
+    float: right;
 }
 .pg1{
   color: black;
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 50px;
-  font-weight: 800;
-  padding: 50px;
-  background-color: rgba(56, 53, 53, 0.527);
+  font-weight: 200;
+  background-color: white;
+  text-align: center;
 }
+.prg2{
+    color: black;
+    margin: 90px;
+    font-weight: 500;
+    padding: 50px;
+    font-size: 30px;
+    background-color: rgba(56, 53, 53, 0.801);
+  }
 
 .cont1{
     margin-top: 10%;
     display: flex;
-    background-color: rgba(44, 40, 40, 0.473);
-    justify-content: space-evenly;
+    background-color: rgba(44, 40, 40, 0.89);
+    gap: 20px;
 }
-.con1,.con2,.con3{
-    margin-top: 20px;
-padding: 100px;
-background-color: white;
-border-radius: 50%;
+
+.con1{
+    display: flex;
+    
 }
 
 #imag1{
     border-radius: 45px;
-    border:  2px solid black;
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
+
+#imag1:hover{
+    
+    transform: scale(1.4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.resot{
+    padding: 20px;
+    background-color: white;
+    border-radius: 45px;
+    margin-top: 50px;
+}
+
+
+#imag2{
+    border-radius: 45px;
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
+
+#imag2:hover{
+    
+    transform: scale(1.4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.out{
+    padding: 20px;
+    background-color: white;
+    border-radius: 45px;
+    margin-top: 50px;
+}
+
+.heading{
+    text-align: center;
+    color: blue;
+    font-style: italic;
 }
