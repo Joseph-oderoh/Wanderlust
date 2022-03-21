@@ -3,28 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
-  background-image: url("../images/bg1.jpg");
-  background-size: cover;
+    background-image: url("../images/ejoy.jpg");
+    background-size: cover;
 }
- 
-h1{
+nav{
+    height: 10vh;
+}
+
+nav a{
     text-align: center;
+    color: blue;
+    font-style: italic;
+    text-decoration: none;
+}
+nav a:hover{
+    color: aqua;
+    
+}
+
+#west{
+    border-radius: 40%;
+    margin-top: 20px;
 }
 .pg1{
-  color: white;
-  font-size: 2em;
+  color: black;
+  font-size: 30px;
+  margin-top: 50px;
+  font-weight: 800;
+  padding: 50px;
+  background-color: rgba(56, 53, 53, 0.527);
 }
 
-.table{
-    color: blue;
+.cont1{
+    margin-top: 10%;
+    display: flex;
+    background-color: rgba(44, 40, 40, 0.473);
+    justify-content: space-evenly;
 }
-tr{
-    border: 2px solid white;
+.con1,.con2,.con3{
+    margin-top: 20px;
+padding: 100px;
+background-color: white;
+border-radius: 45px;
 }
 
-.con{
-    background-color: wheat;
-    border-radius: 50%;
-    border: 2px sp;
+#imag1{
+    border-radius: 45px;
+    border:  2px solid black;
 }
