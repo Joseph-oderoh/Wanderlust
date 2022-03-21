@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-image: url("/image/bg1.jpg");
+  background-size: cover;
+}
+ 
+h1{
+    text-align: center;
+}
+.pg1{
+  color: white;
+  font-size: 2em;
+}
+
+.table{
+    color: blue;
+}
+tr{
+    border: 2px solid white;
+}
+
+.con{
+    background-color: wheat;
+    border-radius: 50%;
+    border: 2px sp;
+}
