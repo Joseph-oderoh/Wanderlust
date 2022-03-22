@@ -8,25 +8,13 @@ body{
      background-image: url("../images/ejoy.jpg");
      background-size: cover; 
 }
-nav{
-    height: 10vh;
-}
-
-nav a{
+.hed{
     text-align: center;
-    color: blue;
-    font-style: italic;
-    text-decoration: none;
 }
-nav a:hover{
-    color: aqua;
-    font-family: "poppins";
-    text-shadow: 2px 3px 4px;
-}
-
 #west{
     margin-top: 20px;
     float: right;
+    
 }
 .pg1{
   color: black;
@@ -43,6 +31,7 @@ nav a:hover{
     padding: 50px;
     font-size: 30px;
     background-color: rgba(56, 53, 53, 0.801);
+    font-family:  monospace;
   }
 
 .cont1{
