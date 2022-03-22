@@ -8,3 +8,13 @@
     justify-content: space-around;
     color: white;
 }
+#container1 {
+    background-color: black;
+    margin: 0 auto;
+    width: 1000px;
+    height: 300px;
+    border: 25px solid black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
