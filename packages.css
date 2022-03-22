@@ -1,7 +1,7 @@
 #container {
     margin: 0 auto;
     width: 1200px;
-    height: 500px;
+    height: 600px;
     border: 25px;
     display: flex;
     justify-content: space-around;
@@ -11,7 +11,7 @@
 #container1 {
     margin: 0 auto;
     width: 1200px;
-    height: 500px;
+    height: 600px;
     border: 35px;
     display: flex;
     justify-content: space-around;
