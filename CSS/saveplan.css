@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   }
+   /* .container #travel1 #travel2{
+    justify-content: space-around;
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    
+   } */
+
+
+   #pay{
+    display: none;
+   }
+   #safaricom{
+    display: none;
+   }
+   .payment-method{
+    display: none;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    height: 100px;
+    /* background-color: aqua; */
+    margin: auto;
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    height: 200px;
+    /* background-color: aqua; */
+    margin: auto;
+
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    height: 700px;
+    /* background-color: aqua; */
+    margin: auto;
+}
+
+#container3{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    height: 300px;
+    background-color:grey;
+    margin: auto;
+}
