@@ -5,7 +5,7 @@
     border: 25px;
     display: flex;
     justify-content: space-around;
-    background-color: aqua;
+    /* background-color: aqua; */
     
 }
 #container1 {
@@ -15,7 +15,7 @@
     border: 35px;
     display: flex;
     justify-content: space-around;
-    background-color: aqua;
+    /* background-color: aqua; */
     
 }
 .heading {
