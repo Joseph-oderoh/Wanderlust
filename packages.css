@@ -6,7 +6,7 @@
     border: 25px solid black;
     display: flex;
     justify-content: space-around;
-    color: white;
+    color: wheat;
 }
 #container1 {
     background-color: black;
@@ -16,5 +16,5 @@
     border: 25px solid black;
     display: flex;
     justify-content: space-around;
-    color: white;
+    color: wheat;
 }
