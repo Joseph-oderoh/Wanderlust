@@ -10,6 +10,7 @@ body{
 }
 .hed{
     text-align: center;
+    font-family: 'Eczar';
 }
 #west{
     margin: 90px;
@@ -24,6 +25,11 @@ body{
   background-color: white;
   text-align: center;
   height: 50vh;
+}
+
+.pg1 h2{
+    font-family: 'Eczar';
+    
 }
 .prg2{
     color: black;
@@ -100,8 +106,9 @@ body{
 
 .heading{
     text-align: center;
-    color: blue;
+    color: white;
     font-style: italic;
+    font-family: 'Eczar';
 }
 
 .buton{
@@ -120,4 +127,80 @@ body{
     padding: 10px;
     border-radius: 45px;
     margin-left: 20px;
+}
+
+@media  only screen and (max-width: 600px) {
+    body{
+        background-image: url("../images/ejoy.jpg");
+        background-size: cover; 
+        width: 87%;
+   }
+   .hed{
+    text-align: center;
+    width: 90%;
+}
+#west{
+   display: none;
+    
+}
+.prg2{
+    color: black;
+    font-weight: 500;
+    font-size: 19px;
+    font-family:  "poppins";
+    width: 75%;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pg1{
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+    font-weight: 200;
+    background-color: white;
+    text-align: center;
+    height: 28vh;
+    width: 51%;
+  }
+  .con1{
+    display: flex;
+    background-color: rgba(56, 53, 53, 0.801);
+    width: 100%;
+    padding: 30px;
+    
+}
+.resot{
+    padding: 20px;
+    background-color: white;
+    border-radius: 45px;
+    margin: 85px;
+}
+.out{
+    padding: 20px;
+    background-color: white;
+    border-radius: 45px;
+    margin: 0 85px;
+}
+
+
+#imag2{
+    padding: 10px;
+    transition: transform .2s; /* Animation */
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
+#imag1{
+    padding: 10px;
+    transition: transform .2s; /* Animation */
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
+
 }
