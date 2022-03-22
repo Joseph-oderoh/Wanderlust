@@ -1,6 +1,8 @@
 $('form').submit(function () {
+      alert("Submitted");
+
     var fields = {};
-    document.addEventListener(DOMContentLoaded, function (event) {
+    document.addEventListener("DOMContentLoaded", function (event) {
         event.preventDefault();
         fields.firstName = document.getElementById('firstName');
         fields.lastName = document.getElementById('lastName');
@@ -58,4 +60,4 @@ $('form').submit(function () {
             alert("There was an error")
         }
     }
-}
+});
