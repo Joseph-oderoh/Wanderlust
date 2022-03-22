@@ -12,7 +12,7 @@ body{
     text-align: center;
 }
 #west{
-    margin-top: 20px;
+    margin: 90px;
     float: right;
     
 }
@@ -23,15 +23,18 @@ body{
   font-weight: 200;
   background-color: white;
   text-align: center;
+  height: 50vh;
 }
 .prg2{
     color: black;
     margin: 90px;
     font-weight: 500;
     padding: 50px;
-    font-size: 30px;
+    font-size: 25px;
     background-color: rgba(56, 53, 53, 0.801);
-    font-family:  monospace;
+    font-family:  "poppins";
+    border-left: 2px solid black;
+    margin-left: 20px;
   }
 
 .cont1{
@@ -43,6 +46,8 @@ body{
 
 .con1{
     display: flex;
+    background-color: rgba(56, 53, 53, 0.801);
+   
     
 }
 
