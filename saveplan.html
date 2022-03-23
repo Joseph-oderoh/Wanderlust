@@ -37,7 +37,7 @@
      <!-- <div class="row"> -->
        <div id="travel">
          <button id="travel1" type="button" class="btn btn-primary">Make full payment</button>
-         <button id="travel2" type="button" class="btn btn-secondary">Pay in installments</button>
+         <a href="#install"><button id="travel2" type="button" class="btn btn-secondary">Pay in installments</button></a>
        </div>
      </div>
     
@@ -85,23 +85,29 @@
                   <form class="form-controls" id="safaricom">
                     <h3>mpesa payment details</h3>
                     <label for="phone--no">Phone Number</label><br>
-                    <input type="text" name="" id="value" required="true" value="" class="form-control" ><br>
+                    <input type="number" name="" id="value" required="true" value="" class="form-control" ><br>
                     <label for="amount">Amount</label><br>
-                    <input type="text" name="" id="amount" required="true" value="$" class="form-control" ><br>
+                    <input type="number" name="" id="amount" required="true" value="$" class="form-control" ><br>
                     <a href=""><button onclick="sendPrompt()" class="btn btn-primary" id="stk">SEND PROMPT</button></a>
                 </form>
             </div>
         </div>
         <div class="container3">
-          <form action="">
+          <form action="" id="install">
+            <h3>Installments payment details</h3>
             <label for="firstName" class="form-label">First Name</label>
             <input type="text" id="firstName" placeholder="first name" class="form-control" >
             <br>
             <label for="secondName" class="form-label">Second Name</label>
             <input type="text" id="secondName" placeholder="second name" class="form-control" >
             <br>
-            <label for="amount" class="form-label">Amount paid</label>
-            <input type="number" id="amt" placeholder="amount" class="form-control" >
+            <label for="Installments" class="form-label">Installments</label>
+            <select name="installments" id="instl" class="form-control">
+              <option value="Installments" >Choose number of installments  </option>
+              <option value=" two Installments">Two installments @ $1000</option>
+              <option value="3 Installments" >Four installments @ $500</option>
+            </select>
+            <a href="#icons"><button type="submit" class="btn btn-primary" id="instl1">submit</button></a>
           </form>
           
         </div>
