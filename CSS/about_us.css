@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background: rgba(0,0,0,0.4) !important;
+  }
+  
+  .navbar .navbar-brand {
+  
+    font-weight: bolder;
+    color: #cdcdcd;
+    font-size: 1.3em;
+    margin-left: 5%;
+  }
+  .navbar-text {
+    font-family: 'Kaushan Script', cursive;
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+  }
+  .navbar-text:hover {
+    color: #ffffff;
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  
+  .nav-item {
+    margin-left: 30px;
+  }
+  
+  .navbar .nav-item a {
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 700;
+    color: #cdcdcd;
+    font-weight: bolder;
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+  }
+  .nav-item:hover a {
+    color: #ffffff;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+
+body{
+     background-image: url("../images/bg1.jpg");
+     background-size: cover; 
+}
+.hed{
+    text-align: center;
+    font-family: 'Eczar';
+    margin-top: 10%;
+    color: white;
+    font-weight: 400;
+}
+#west{
+    margin: 90px;
+    float: right;
+    
+}
+.pg1{
+  color: white;
+  font-size: 25px;
+  margin-top: 50px;
+  font-weight: 200;
+  background-color: rgba(81, 81, 206, 0.234);
+  text-align: center;
+  height: 50vh;
+  font-family: 'Eczar';
+}
+
+.pg1 h2{
+    font-family: 'Eczar';
+    
+}
+.prg2{
+    color: black;
+    margin: 90px;
+    font-weight: 500;
+    padding: 50px;
+    font-size: 25px;
+    background-color: rgba(53, 54, 56, 0.227);
+    font-family:  "poppins";
+    border-left: 2px solid black;
+    margin-left: 20px;
+  }
+
+.cont1{
+    margin-top: 10%;
+    display: flex;
+    background-color: rgba(40, 40, 44, 0.145);
+    gap: 20px;
+}
+
+.con1{
+    display: flex;
+    background-color: rgba(53, 56, 56, 0.241);
+   
+    
+}
+
+#imag1{
+    border-radius: 45px;
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
+
+#imag1:hover{
+    
+    transform: scale(1.4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.resot{
+    padding: 20px;
+   color: white;
+    border-radius: 45px;
+    margin-top: 50px;
+    background:-co rgba(0, 0, 0, 0.481)
+}
+
+
+#imag2{
+    border-radius: 45px;
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
+
+#imag2:hover{
+    
+    transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.out{
+    padding: 20px;
+    color: white;
+    background:-co rgba(0, 0, 0, 0.481);
+    border-radius: 45px;
+    margin-top: 50px;
+}
+
+.heading{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-family: 'Eczar';
+}
+
+.buton{
+
+    text-align: center;
+    background-color:  black;
+    width: fit-content;
+}
+.butn{
+    padding: 10px;
+    border-radius: 45px;
+    margin-right: 20px;
+}
+
+.butn1{
+    padding: 10px;
+    border-radius: 45px;
+    margin-left: 20px;
+}
+
+@media  only screen and (max-width: 600px) {
+    body{
+        background-image: url("../images/ejoy.jpg");
+        background-size: cover; 
+        width: 87%;
+   }
+   .hed{
+    text-align: center;
+    width: 90%;
+}
+#west{
+   display: none;
+    
+}
+.prg2{
+    color: black;
+    font-weight: 500;
+    font-size: 19px;
+    font-family:  "poppins";
+    width: 75%;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pg1{
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+    font-weight: 200;
+    background-color: white;
+    text-align: center;
+    height: 28vh;
+    width: 51%;
+  }
+  .con1{
+    display: flex;
+    background-color: rgba(56, 53, 53, 0.801);
+    width: 100%;
+    padding: 30px;
+    
+}
+.resot{
+    padding: 20px;
+    background-color: white;
+    border-radius: 45px;
+    margin: 85px;
+}
+.out{
+    padding: 20px;
+    background-color: white;
+    border-radius: 45px;
+    margin: 0 85px;
+}
+
+
+#imag2{
+    padding: 10px;
+    transition: transform .2s; /* Animation */
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
+#imag1{
+    padding: 10px;
+    transition: transform .2s; /* Animation */
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
+
+}

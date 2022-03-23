@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <link rel="stylesheet" href="./CSS/saveplan.css">
+ 
+   <title>saveplan</title>
+ </head>
+ <body>
+  <nav class="navbar navbar-expand-md fixed-top">
+    
+    <span class="navbar-brand navbar-text"> <a href="#"></a> <h1>WANDERLUST</h1> </span>
+    <div class="collapse navbar-collapse" id="collapse_target">
+      <ul class="navbar-nav ml-lg-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about_us.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./packages.html">Packages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./saveplan.html">SavePlan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contacts</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- payment type buttons -->
+   <div class="container">
+     <!-- <div class="row"> -->
+       <div id="travel">
+         <button id="travel1" type="button" class="btn btn-primary">Make full payment</button>
+         <a href="#install"><button id="travel2" type="button" class="btn btn-secondary">Pay in installments</button></a>
+       </div>
+     </div>
+    
+ 
+     <!-- payment methods -->
+ 
+     <div id="icons" class="payment-method container1">
+       <a href="#"> <img src="./images/card2.png" id="card" srcset=""></a>
+       <a href="#"><img src="./images/mpesa.png" id="pesa" sizes="" srcset=""></a>
+     </div>
+ 
+ 
+   <!-- billing details -->
+   <div class="container2 form" >
+     <form class="form-controls" id="pay">
+        <h3>card payment details</h3>
+        <input type="radio" id="visa" value="visa">Visa
+        <input type="radio" id="amerix" value="xpress">American Xpress
+        <input type="radio" id="mastercard" value="mastercard">Mastercard
+        <br>
+        <label for="firstName" class="form-label">First Name</label>
+        <input type="text" id="firstName" value="" class="form-control" >
+        <br>
+        <label for="secondName" class="form-label">Second Name</label>
+        <input type="text" id="secondName" value="" class="form-control" >
+        <br>
+        <label for="cardNumber" class="form-label">Card Number</label>
+        <input type="number" id="cardNumber" value="" class="form-control" >
+        <br>
+        <label for="expiryDate" class="form-label">Expiry Date</label>
+        <input type="text" id="expiryDate" value="" class="form-control" >
+        <br>
+        <label for="code" class="form-label">code</label>
+        <input type="number" id="code" value="" class="form-control" >
+        <br>
+        <label for="amount" class="form-label">Amount</label>
+        <input type="number" id="amount" value="" class="form-control" >
+        <br>
+        <button id="btn" type="submit" class="btn btn-primary" >pay</button>
+        </form>
+       
+    
+        <!-- mpesa checkout  -->
+        <div  class="mpesa">
+                  <form class="form-controls" id="safaricom">
+                    <h3>mpesa payment details</h3>
+                    <label for="phone--no">Phone Number</label><br>
+                    <input type="number" name="" id="value" required="true" value="" class="form-control" ><br>
+                    <label for="amount">Amount</label><br>
+                    <input type="number" name="" id="amount" required="true" value="$" class="form-control" ><br>
+                    <a href=""><button onclick="sendPrompt()" class="btn btn-primary" id="stk">SEND PROMPT</button></a>
+                </form>
+            </div>
+        </div>
+        <div class="container3">
+          <form action="" id="install">
+            <h3>Installments payment details</h3>
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" id="firstName" placeholder="first name" class="form-control" >
+            <br>
+            <label for="secondName" class="form-label">Second Name</label>
+            <input type="text" id="secondName" placeholder="second name" class="form-control" >
+            <br>
+            <label for="Installments" class="form-label">Installments</label>
+            <select name="installments" id="instl" class="form-control">
+              <option value="Installments" >Choose number of installments  </option>
+              <option value=" two Installments">Two installments @ $1000</option>
+              <option value="3 Installments" >Four installments @ $500</option>
+            </select>
+            <a href="#icons"><button type="submit" class="btn btn-primary" id="instl1">submit</button></a>
+          </form>
+          
+        </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+            <script defer src="./Js/saveplan.js"></script>
+          
+          </body>
+         </html>
+            
