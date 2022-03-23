@@ -56,7 +56,9 @@
     background-color: green;
     
    } */
-
+.pay-images{
+    margin-top: 10%;
+}
 
    #pay{
     display: none;
@@ -66,6 +68,13 @@
    }
    #icons{
     display: none;
+}
+
+#travel{
+    margin-top: 20%;
+    background-color: wheat;
+    padding: 30px;
+    text-align: center;
 }
 .container{
     justify-content: space-around;
@@ -77,18 +86,16 @@
 .container1{
     display: flex;
     justify-content: space-around;
-    width: 800px;
+    width: 750px;
     height: 200px;
-    /* background-color: aqua; */
     margin: auto;
-
+    text-align: center;
 }
 .container2{
     display: flex;
     justify-content: space-around;
     width: 800px;
     height: 700px;
-    /* background-color: aqua; */
     margin: auto;
 }
 
