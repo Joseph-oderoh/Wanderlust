@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 .navbar {
+    display: flex;
+    gap: 350px;
     background: rgba(0,0,0,0.4) !important;
   }
   
@@ -34,7 +36,7 @@
   }
   
   .navbar .nav-item a {
-    font-family: 'Sarabun', sans-serif;
+    font-family: serif;
     font-weight: 700;
     color: #cdcdcd;
     font-weight: bolder;
@@ -160,26 +162,25 @@ body{
 .heading{
     text-align: center;
     color: white;
-    font-style: italic;
     font-family: 'Eczar';
 }
 
-.buton{
-
-    text-align: center;
-    background-color:  black;
-    width: fit-content;
+#res{
+    font-family: serif;
 }
-.butn{
-    padding: 10px;
-    border-radius: 45px;
-    margin-right: 20px;
+.resot p{
+    font-family: "poppins";
 }
 
-.butn1{
-    padding: 10px;
-    border-radius: 45px;
-    margin-left: 20px;
+#outt{
+    font-family: serif;
+}
+.out p{
+    font-family: "poppins";
+}
+footer{
+    margin-top: 20px;
+    color: white;
 }
 
 @media  only screen and (max-width: 600px) {

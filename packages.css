@@ -1,5 +1,7 @@
 
 .navbar {
+    display: flex;
+    gap: 350px;
     background: rgba(0,0,0,0.4) !important;
   }
   
@@ -72,6 +74,7 @@
     margin-top: 100px;
     text-align: center;
     padding: 20px;
+    font-family: serif;
 }
 #container img {
     display: flex;
@@ -82,4 +85,12 @@
     display: flex;
     width: 350px;
     height: 350px;
+}
+
+h2{
+  font-family: serif;
+}
+
+p{
+  font-family: poppins;
 }

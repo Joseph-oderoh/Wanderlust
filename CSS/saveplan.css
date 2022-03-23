@@ -3,11 +3,13 @@
     padding: 0%;
    }
    .navbar {
+    display: flex;
+    gap: 350px;
     background: rgba(0,0,0,0.4) !important;
   }
   
   .navbar .navbar-brand {
-  
+  font-family: serif;
     font-weight: bolder;
     color: #cdcdcd;
     font-size: 1.3em;
@@ -62,15 +64,24 @@
 
    #pay{
     display: none;
+    font-family: poppins;
    }
    #safaricom{
     display: none;
+    font-family: poppins;
    }
+  
    #icons{
     display: none;
 }
+ 
+#install{
+  font-family: poppins;
+}
 
 #travel{
+  display: flex;
+   justify-content: space-between;
     margin-top: 20%;
     background-color: wheat;
     padding: 30px;
@@ -112,3 +123,4 @@
 .container3 h3{
     margin-top: 10%;
 }
+

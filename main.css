@@ -9,11 +9,14 @@ body{
   max-width: 100%;
 }
 .navbar {
+  display: flex;
+  gap: 400px;
   background: rgba(0,0,0,0.4) !important;
 }
 
-.navbar .navbar-brand {
 
+.navbar .navbar-brand {
+  font-style: italic;
   font-weight: bolder;
   color: #cdcdcd;
   font-size: 1.3em;
@@ -39,7 +42,7 @@ body{
 }
 
 .navbar .nav-item a {
-  font-family: 'Sarabun', sans-serif;
+  font-family: serif;
   font-weight: 700;
   color: #cdcdcd;
   font-weight: bolder;
@@ -86,10 +89,12 @@ background-size: cover;
   font-size: 80px;
   font-weight: 500;
   color: whitesmoke;
+  font-family: serif;
 }
 .carousel-caption p{
   font-size: 30px;
   top: -2rem;
+  font-family: "poppins";
 }
 /* .slider-btn .btn{
   background-color: blueviolet;
