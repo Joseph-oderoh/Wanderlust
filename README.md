@@ -29,7 +29,7 @@ We're in an age where people are becoming more aware of their needs and desires 
 * CSS- this was used to style the landing page and all the pages
 * JQuery-which was used in adding interactive behavior to web pages.
 
-
+![Project-design](./images/Wanderlust.png)
 ## Reference
 * MDN BOOTSTRAP
 * STACK OVERFLOW
