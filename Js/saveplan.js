@@ -22,7 +22,8 @@ $("#travel").click (function (){
 
 
  $("#instl1").click( function (e) {
-    e.preventDefault(); 
+    e.preventDefault();
+    alert("Kindly  choose  your preferred payment plan. ") 
      $("#install").hide();
     
     //  $("#card").click (function(){

@@ -1,4 +1,4 @@
-# Wandeelust Website
+# Wanderlust Website
 
 ##### By 
 Joseph Oderoh,
